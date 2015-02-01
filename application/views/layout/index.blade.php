@@ -83,7 +83,7 @@
   <!-- Main Grid Section -->
 
   <div class="row">
-    @yield('content')
+    @_yield('content')
   </div>
 
 

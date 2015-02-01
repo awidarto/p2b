@@ -52,12 +52,12 @@
   <body>
 
     <div id="wrap">
-      @yield('publictopnav')
+      @_yield('publictopnav')
 
       <div class="container">
         <div class="row">
           <div class="span12">
-            @yield('content')
+            @_yield('content')
           </div>
         </div>
       </div>
