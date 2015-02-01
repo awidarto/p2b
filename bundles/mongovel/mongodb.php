@@ -134,7 +134,7 @@ class MongoDB {
 		/* Create connection object, attempt to connect */
 		$options['connect'] = FALSE;
 
-		$this->_connection = new \Mongo($config['hostnames'], $options);
+		$this->_connection = new \MongoClient($config['hostnames'], $options);
 
 		/* Try connect */
 		try
